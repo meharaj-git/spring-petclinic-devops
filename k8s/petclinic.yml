@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: workload
-          image: spring-petclinic:v1
+          image: meharajacr001.azurecr.io/spring-petclinic:v1
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: postgres
